@@ -1,0 +1,42 @@
+#menuPrincipal
+{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+#menuPrincipal a
+{
+	color: black;
+	display: table-cell;
+	text-decoration: none;
+	vertical-align: none;
+}
+
+#menuPrincipal a:hover
+{
+	text-decoration: underline;
+}
+
+#menuPrincipal img
+{
+	display: inline-block;
+	vertical-align: middle;
+	width: 25px;
+}
+
+
+#menuPrincipal li
+{
+	display: inline-table;
+	min-width: 150px;
+	text-align: center;
+}
+
+#menuPrincipal ul
+{
+	display: inline-block;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
