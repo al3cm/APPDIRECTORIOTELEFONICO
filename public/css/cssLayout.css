@@ -10,10 +10,15 @@ header
 
 #cuerpoGeneral
 {
-	margin-top: 10px;
+	padding-top: 10px;
 }
 
-#appSesion
+#cuerpoGeneralInterno
+{
+	margin: 10px;
+}
+
+#divAppSesion
 {
 	position: absolute;
 	right: 5px;

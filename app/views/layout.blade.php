@@ -30,13 +30,16 @@
 				</li>
 			</ul>
 		</nav>
-		<div id="appSesion">
+		<div id="divAppSesion">
 			<b>Sesión Iniciada como: </b>Alejandro Castillo
 		</div>
 	</header>
 	<section id="cuerpoGeneral">
 		<section id="cuerpoGeneralInterno">
-			@yield('cuerpo');
+			@if(isset($mensajeGlobal))
+				{{{$mensajeGlobal}}}
+			@endif
+			@yield('cuerpo')
 		</section>
 	</section>
 	<footer>
